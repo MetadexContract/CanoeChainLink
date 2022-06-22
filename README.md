@@ -16,7 +16,7 @@ For convenience, we first introduce CanoeChainLink, and then use the Proxy offic
 pragma solidity ^0.8.0;
 ```
 
-2. [ChainLink](https://docs.chain.link/docs/ethereum-addresses/)官网获取到提供的Proxy；
+2. [ChainLink](https://docs.chain.link/docs/ethereum-addresses/)The official website obtains the provided Proxy;
    |Ethereum Mainnet| | | |:----|:----|:----| |Pair|Dec|Proxy| |1INCH /
    ETH|18|[0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8](https://etherscan.io/address/0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8)|
    |1INCH /
@@ -39,7 +39,7 @@ pragma solidity ^0.8.0;
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "";
+import "https://github.com/MetadexContract/CanoeChainLink/blob/main/contracts/CanoeChainLink.sol";
 
 contract CustomizedCase {
     CanoeChainLink public canoeChainLink;
@@ -70,7 +70,7 @@ Matic Testnet address: "0xD72e24B934dc614F76BAE3CE43F8498148f82826"
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "";
+import "https://github.com/MetadexContract/CanoeChainLink/blob/main/contracts/interfaces/ICanoeChainLink.sol";
 
 contract DefaultCase {
     ICanoeChainLink public canoeChainLink;
